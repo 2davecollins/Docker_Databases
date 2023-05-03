@@ -12,5 +12,5 @@ volumes:
   dbdata:
 
 networks:
-  mongo-natwork:
+  mongo-network:
     driver: bridge
