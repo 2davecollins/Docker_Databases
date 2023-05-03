@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  mongodb:
+    image: mongo:4.4
+    ports:
+      - '27017:27017'
+    volumes:
+      - dbdata:/data/db
+    networks:
+      - mongo-network
+volumes:
+  dbdata:
+
+networks:
+  mongo-natwork:
+    driver: bridge
