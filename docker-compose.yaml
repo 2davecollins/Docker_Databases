@@ -7,13 +7,8 @@ networks:
         driver: bridge
 
 volumes:
-    mysqldata:
-        driver: local
-        driver_opts:
-            type: 'none'
-            o: 'bind'
-            device: '${HOME}/server/mysql-phpmyadmin/data'
-
+    db:
+      
 services:
     mysql:
         image: mysql:8.0
