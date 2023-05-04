@@ -26,7 +26,7 @@ services:
         ports:
             - "3307:3306"
         volumes:
-            - mysqldata:/var/lib/mysql
+            - db:/var/lib/mysql
         networks:
           mysql-phpmyadmin:
             aliases:
