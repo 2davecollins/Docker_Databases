@@ -33,9 +33,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ### MySQL Branch DDB_MySQL
 ### MySQL with phpmyadmin Branch DDB_MySQL_PHPMYADMIN
-### MongoDB single instance DDB_mongoDB_Single
-### MongoDB replicaset branch DDB_MongoDB_Replicaset
-### Postgress with pgadmin DDB_Postgress_pgadmin
+### MongoDB single instance Branch DDB_mongoDB_Single
+### MongoDB replicaset Branch DDB_MongoDB_Replicaset
+### Postgress with pgadmin Branch DDB_Postgress_pgadmin
 
 
 ## Docker commands to free up space if needed
