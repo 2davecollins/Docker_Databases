@@ -35,4 +35,24 @@ sudo chmod +x /usr/local/bin/docker-compose
 ### MySQL with phpmyadmin Branch DDB_MySQL_PHPMYADMIN
 ### MongoDB single instance DDB_mongoDB_Single
 ### MongoDB replicaset branch DDB_MongoDB_Replicaset
+### Postgress with pgadmin DDB_Postgress_pgadmin
+
+
+## Docker commands to free up space if needed
+use sudo if required
+```
+$ df -h
+$ free
+
+$ sudo docker system prune -a  # all stopped and dangling images
+
+$ sudo docker image prune -a -f
+$ sudo docker container prune
+$ sudo docker volume prune -f
+$ sudo docker system prune -a -f
+$ sudo docker container stop $(docker container ls -aq) # stop all container
+$ sudo docker-compose down -v # deletes volume
+
+
+```
 
