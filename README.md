@@ -1,4 +1,4 @@
-# Docker Database Master DDB_Postgress_pgadmin
+# Docker Postgress Database with pgadmin DDB_Postgress_pgadmin
 
 ## login to pgadmin <ipaddress>:5050
 ## credenial should be chaned in the docker-compose file
