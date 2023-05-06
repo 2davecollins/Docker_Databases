@@ -11,6 +11,8 @@ services:
       POSTGRES_PASSWORD: admin
     volumes:
       - db:/var/lib/postgresql/data
+    networks:
+      - postgress-network
   pgadmin:
     image: dpage/pgadmin4
     container_name: pgadmin4_container
@@ -22,7 +24,13 @@ services:
       PGADMIN_DEFAULT_PASSWORD: password
     volumes:
       - pgadmin-data:/var/lib/pgadmin
+    networks:
+      - postgress-network
 
 volumes:
   db:
   pgadmin-data:
+
+networks:
+  postgress-network:
+    driver: bridge
