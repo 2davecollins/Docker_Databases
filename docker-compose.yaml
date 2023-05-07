@@ -5,7 +5,7 @@ services:
     ports:
       - 6379:6379
     environment:
-      - REDIS_HOS=myredis
+      - REDIS_HOST=myredis
     networks:
       - redis-network
   redisinsight:
