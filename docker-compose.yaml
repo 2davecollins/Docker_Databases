@@ -16,7 +16,7 @@ services:
     networks:
       - redis-network
     volumes:
-      - db:/db
+      - db:/data
 networks:
   redis-network:
     driver: bridge
