@@ -6,3 +6,4 @@
 
 [Redis Crash Cource](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 
+needs to be tested out of memory error
