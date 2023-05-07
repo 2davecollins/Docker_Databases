@@ -4,6 +4,8 @@ services:
     image: redislabs/redismod
     ports:
       - 6379:6379
+    environment:
+      - REDIS_HOS=myredis
     networks:
       - redis-network
   redisinsight:
