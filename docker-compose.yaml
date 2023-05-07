@@ -9,7 +9,7 @@ services:
   redisinsight:
     image: redislabs/redisinsight:latest
     ports:
-      - '8001:8001'
+      - '9001:8001'
     networks:
       - redis-network
     volumes:
