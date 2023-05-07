@@ -1,7 +1,8 @@
 version: '3'
 services:
   redis:
-    image: redislabs/redismod
+    image: redis:6.2-alpine
+    restart: always
     ports:
       - 6379:6379
     environment:
