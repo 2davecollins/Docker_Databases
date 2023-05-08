@@ -84,6 +84,12 @@ docker stop redis-stack
 
 ```
 
+### Neo4j
+
+##### [docker tutorial neo4j](https://neo4j.com/developer/docker-run-neo4j/)
+
+##### [Neo4j Desktop](https://neo4j.com/download/)
+
 ## Docker commands to free up space if needed
 use sudo if required
 ```
