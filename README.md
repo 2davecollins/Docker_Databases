@@ -75,13 +75,12 @@ docker stop redis-stack
 
     docker run --name ratel  -d -p "9000:8000"  dgraph/ratel:latest
 
-    navigate to ipaddress:9000
+    navigate to ipaddress:9000 navigate to ipaddress port 8080
 
     or use playgraph
     https://play.dgraph.io/
-     
-
-
+ 
+    issue with password use docker ratel and point to ipaddress:8080
 
 ```
 
