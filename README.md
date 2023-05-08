@@ -37,6 +37,23 @@ sudo chmod +x /usr/local/bin/docker-compose
 ### MongoDB replicaset Branch DDB_MongoDB_Replicaset
 ### Postgress with pgadmin Branch DDB_Postgress_pgadmin
 
+### Redis with redisinsight
+
+[Start with Docker](https://redis.io/docs/stack/get-started/install/docker/)
+[RedisInsight Docs](https://redis.io/docs/ui/insight/)
+[Redis Manual](https://redis.io/docs/manual/)
+```
+docker run -d --name redis-stack -p 6379:6379 -p 9001:8001 redis/redis-stack:latest
+
+navigate to <ipaddress>:9001 to access redisinsight.#
+
+to stop container run
+
+docker stop redis-stack
+
+
+```
+
 
 ## Docker commands to free up space if needed
 use sudo if required
